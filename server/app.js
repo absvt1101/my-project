@@ -17,7 +17,7 @@ app.use((req, res, next) => {
 // var mypassword = process.env.APPLICATION_PASSWORD;
 var myemail = "abhi123abc456@gmail.com";
 var mypassword = "lxmh yspf qtow whmp";
-
+// var recipient_email = "absvt11012552@gmail.com";
 function sendEmail({ recipient_email, subject, message }) {
   return new Promise((resolve, reject) => {
     var transporter = nodemailer.createTransport({
